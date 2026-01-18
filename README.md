@@ -5,12 +5,8 @@ Official website for Escape &amp; Co – Digital Strategy &amp; Creative Agency
 A modern, responsive digital agency website built with HTML, CSS, and JavaScript.
 
 ## 🌐 Live Website
-https://YOUR_USERNAME.github.io/escape-agency-website/
+[https://escapeandco.carrd.co](https://escapeandco.netlify.app/)
 
-## 🛠 Tech Stack
-- HTML5
-- CSS3 (Responsive Design)
-- JavaScript (Vanilla)
 
 ## 📂 Features
 - Responsive layout (Mobile / Tablet / Desktop)
@@ -19,11 +15,8 @@ https://YOUR_USERNAME.github.io/escape-agency-website/
 - Clean UI inspired by premium agencies
 
 ## 🚀 Deployment
-Hosted using **GitHub Pages**
-
-## 📸 Preview
-![Website Preview](images/ll.png)
+Hosted using **Netlify**
 
 ## 📬 Contact
-Email: escapeandco@gmail.com  
-Website: https://escapeandco.carrd.co
+Email: sharmak6070@gmail.com  
+Website: [https://escapeandco.carrd.co](https://escapeandco.netlify.app/)
