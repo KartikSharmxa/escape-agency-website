@@ -226,7 +226,8 @@
 
             <!-- Work -->
             <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field"
-                action="/success/" class="contact-form">
+                class="contact-form">
+                <input type="hidden" name="form-name" value="contact">
 
                 <!-- Required hidden input -->
                 <input type="hidden" name="form-name" value="contact">
@@ -273,8 +274,23 @@
             <p>Placeholder for your portfolio content. You can add videos or images here.</p>
         </div>
     </div>
-    
 
+    <section id="thank-you" style="display:none;">
+  <h1>Thank you!</h1>
+  <p>Your enquiry has been received.</p>
+</section>
+
+<script>
+  if (window.location.search.includes("success=true")) {
+    document.querySelector("#thank-you").style.display = "block";
+  }
+</script>
+
+    <script>
+        if (window.location.search.includes("success=true")) {
+            window.location.href = "/#thank-you";
+        }
+    </script>
     <script src="agency.js"></script>
 </body>
 
